@@ -3,7 +3,13 @@
 }
 
 body {
+  font-family:
+    "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana,
+    sans-serif;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: greenyellow;
 }
 
@@ -12,9 +18,7 @@ Header {
   justify-content: space-between;
   align-items: center;
   color: white;
-  font-family:
-    "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana,
-    sans-serif;
+
   background-color: rgb(45, 45, 45);
 }
 
@@ -41,6 +45,7 @@ main {
   background-color: greenyellow;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 .Teams {
@@ -62,4 +67,25 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 32px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  margin-top: auto;
+}
+
+.Foot-H1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 16px;
+  min-height: 100%;
 }
