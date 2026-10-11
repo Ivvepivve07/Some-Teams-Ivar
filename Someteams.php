@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__();
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -10,6 +8,8 @@ require __DIR__();
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Some Teams Ivar</title>
+
+  <link rel="stylesheet" href="Some-Teams.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@ require __DIR__();
       <h1>Some Teams</h1>
     </div>
 
-    <div>
+    <div class="Navigation">
       <a href="">Start</a>
       <a href="">About</a>
     </div>
