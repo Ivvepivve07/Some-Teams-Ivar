@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: greenyellow;
 }
 
 Header {
@@ -35,4 +36,30 @@ Header {
 a {
   color: beige;
   margin: 5px;
+}
+main {
+  background-color: greenyellow;
+  margin: 0;
+  padding: 0;
+}
+
+.Teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 10px;
+}
+
+.Team-Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(70, 70, 70);
+  color: bisque;
+  width: 200px;
+  height: 200px;
+  border-radius: 32px;
 }
