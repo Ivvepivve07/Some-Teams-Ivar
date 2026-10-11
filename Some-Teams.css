@@ -48,6 +48,10 @@ main {
   flex: 1;
 }
 
+h3 {
+  font-size: 12px;
+}
+
 .Teams {
   display: flex;
   flex-wrap: wrap;
@@ -59,6 +63,7 @@ main {
 
 .Team-Card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
