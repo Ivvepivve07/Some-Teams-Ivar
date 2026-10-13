@@ -1,10 +1,14 @@
 <header class="Header">
     <div class="Header-Title">
-        <h1>Some Teams</h1>
+        <a class="SomeTeams" href="/Someteams.php">
+            <h1>Some Teams</h1>
+        </a>
     </div>
 
     <div class="Navigation">
-        <a href="#top">Start</a>
-        <a href="#about">About</a>
+        <nav>
+        </nav>
+        <a href="/someteams.php">Start</a>
+        <a href="/about.php">About</a>
     </div>
 </header>
