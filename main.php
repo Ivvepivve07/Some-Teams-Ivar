@@ -20,6 +20,6 @@ require __DIR__ . '/data.php';
     </div>
 
     <div>
-        <img class="Footboll" src="/Soccerball.svg.webp" alt="Footboll">
+        <img class="Footboll" src="Soccerball.svg.webp" alt="Footboll">
     </div>
 </main>

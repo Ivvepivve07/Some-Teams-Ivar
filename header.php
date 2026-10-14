@@ -8,7 +8,7 @@
     <div class="Navigation">
         <nav>
         </nav>
-        <a href="/Index.php">Start</a>
-        <a href="/about.php">About</a>
+        <a href="Index.php">Start</a>
+        <a href="about.php">About</a>
     </div>
 </header>
