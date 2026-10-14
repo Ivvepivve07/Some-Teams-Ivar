@@ -18,7 +18,7 @@ require_once __DIR__ . '/header.php';
 <main class="About-Main">
     <section>
         <div class="About">
-            <h1 class="Creator">Creator - Ivar Fransson Larsson</h1>
+            <h1 class="Creator">Creator - Ivar Fransson Lbvbvbvarsson</h1>
             <h2 class="Birthdate">Birthdate - 25th July 2007</h2>
             <h3 class="Favorite-Team">Favorite Team - Öis (Swedish) Barcelona (Spanish)</h3>
             <br>
